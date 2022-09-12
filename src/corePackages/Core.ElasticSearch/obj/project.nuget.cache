@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "vdMv5WxWsCPj7aD77HSOwB+X/ylTQhp+jSYnsoyxi0mxYQjJ/3xzlSdS1vnaPm5mChUSo3ysfXceHp1gpP3MIA==",
+  "dgSpecHash": "qFh3S3CcDzgz59bW2JeqaIG7Ke3loaLMME+R/HJEqxEipLYiia507Rw8wYr27R9tTP76SHdys666V5RciShRTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\Kodlama.io.Devs\\ödev2\\Kodlama.io.Devs\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
+  "projectFilePath": "C:\\Users\\nur.senkara\\Desktop\\Nur\\hw2\\Kodlama.io.Devs2\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\asus\\.nuget\\packages\\elasticsearch.net\\7.17.0\\elasticsearch.net.7.17.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\nest\\7.17.0\\nest.7.17.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\nest.jsonnetserializer\\7.17.0\\nest.jsonnetserializer.7.17.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\elasticsearch.net\\7.17.0\\elasticsearch.net.7.17.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\nest\\7.17.0\\nest.7.17.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\nest.jsonnetserializer\\7.17.0\\nest.jsonnetserializer.7.17.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\nur.senkara\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

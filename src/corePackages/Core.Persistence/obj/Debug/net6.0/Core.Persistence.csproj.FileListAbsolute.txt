@@ -10,3 +10,15 @@ C:\Users\asus\Desktop\Kodlama.io.Devs\ödev2\Kodlama.io.Devs\src\corePackages\Co
 C:\Users\asus\Desktop\Kodlama.io.Devs\ödev2\Kodlama.io.Devs\src\corePackages\Core.Persistence\obj\Debug\net6.0\refint\Core.Persistence.dll
 C:\Users\asus\Desktop\Kodlama.io.Devs\ödev2\Kodlama.io.Devs\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.pdb
 C:\Users\asus\Desktop\Kodlama.io.Devs\ödev2\Kodlama.io.Devs\src\corePackages\Core.Persistence\obj\Debug\net6.0\ref\Core.Persistence.dll
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.deps.json
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.dll
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\bin\Debug\net6.0\Core.Persistence.pdb
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.csproj.AssemblyReference.cache
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.AssemblyInfoInputs.cache
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.AssemblyInfo.cs
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.dll
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\refint\Core.Persistence.dll
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\Core.Persistence.pdb
+C:\Users\nur.senkara\Desktop\Nur\hw2\Kodlama.io.Devs2\src\corePackages\Core.Persistence\obj\Debug\net6.0\ref\Core.Persistence.dll

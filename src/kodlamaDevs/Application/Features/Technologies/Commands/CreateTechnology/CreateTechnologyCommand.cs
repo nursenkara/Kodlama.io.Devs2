@@ -34,7 +34,7 @@ namespace Application.Features.Technologies.Commands.CreateTechnology
             {
                 Technology? technology = await _repository.GetAsync(c => c.ProgrammingLanguageId == request.ProgrammingLanguageId);
 
-                await _rules.TechnologyShouldExistWhenRequested(technology);
+                
                 await _rules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
 
                 Technology mappedTechnology = _mapper.Map<Technology>(request);

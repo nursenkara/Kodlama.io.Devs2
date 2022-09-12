@@ -12,8 +12,8 @@ using Persistence.Context;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20220910160330_Add-User-Opertaion-Claim-Github")]
-    partial class AddUserOpertaionClaimGithub
+    [Migration("20220912081723_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

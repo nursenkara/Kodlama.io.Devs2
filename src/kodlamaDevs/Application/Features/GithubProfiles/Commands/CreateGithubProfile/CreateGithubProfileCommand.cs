@@ -34,7 +34,7 @@ namespace Application.Features.GithubProfiles.Commands.CreateGithubProfile
             {
                 GithubProfile? githubProfile = await _repository.GetAsync(c => c.UserId == request.UserId);
 
-                await _rules.GithubProfileShouldExistWhenRequested(githubProfile);
+                
                 await _rules.GithubProfileUrlCanNotBeDuplicatedWhenInserted(request.ProfileUrl);
 
                 GithubProfile mappedGithubProfile = _mapper.Map<GithubProfile>(request);

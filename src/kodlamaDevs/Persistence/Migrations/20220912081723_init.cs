@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persistence.Migrations
 {
-    public partial class AddUserOpertaionClaimGithub : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -20,6 +20,19 @@ namespace Persistence.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_OperationClaims", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ProgrammingLanguages",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProgrammingLanguages", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -39,6 +52,26 @@ namespace Persistence.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Technologies",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProgrammingLanguageId = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Technologies", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Technologies_ProgrammingLanguages_ProgrammingLanguageId",
+                        column: x => x.ProgrammingLanguageId,
+                        principalTable: "ProgrammingLanguages",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -117,12 +150,31 @@ namespace Persistence.Migrations
             migrationBuilder.InsertData(
                 table: "OperationClaims",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Admin" });
+                values: new object[,]
+                {
+                    { 1, "Admin" },
+                    { 2, "User" }
+                });
 
             migrationBuilder.InsertData(
-                table: "OperationClaims",
+                table: "ProgrammingLanguages",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 2, "User" });
+                values: new object[,]
+                {
+                    { 1, "C#" },
+                    { 2, "Java" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Technologies",
+                columns: new[] { "Id", "Name", "ProgrammingLanguageId" },
+                values: new object[,]
+                {
+                    { 1, "ASP.NET", 1 },
+                    { 2, "WPF", 1 },
+                    { 3, "Spring", 2 },
+                    { 4, "JSP", 2 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_GithubProfiles_UserId",
@@ -133,6 +185,11 @@ namespace Persistence.Migrations
                 name: "IX_RefreshToken_UserId",
                 table: "RefreshToken",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Technologies_ProgrammingLanguageId",
+                table: "Technologies",
+                column: "ProgrammingLanguageId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserOperationClaims_OperationClaimId",
@@ -154,7 +211,13 @@ namespace Persistence.Migrations
                 name: "RefreshToken");
 
             migrationBuilder.DropTable(
+                name: "Technologies");
+
+            migrationBuilder.DropTable(
                 name: "UserOperationClaims");
+
+            migrationBuilder.DropTable(
+                name: "ProgrammingLanguages");
 
             migrationBuilder.DropTable(
                 name: "OperationClaims");
